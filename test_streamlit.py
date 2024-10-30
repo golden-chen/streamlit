@@ -37,7 +37,7 @@ def main():
 
     color = st.color_picker("選擇顏色", "#00f900")
     st.write("您選擇的顏色是：", color)
-    df = pd.read_csv("data/Weekly_Age_County_Gender_19CoV.csv")
+    df = pd.read_csv("data/ic01.csv")
     st.subheader("This is a df")
     st.dataframe(df,800,300)   
     # 成功
